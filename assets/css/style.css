@@ -9,6 +9,10 @@ ul{
     list-style-type: none
 }
 
+img{
+    display: block
+}
+
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
@@ -40,6 +44,10 @@ body{
     margin: auto;
 }
 
+.wrap{
+    flex-wrap: wrap;
+}
+
 .relative{
     position: relative;
 }
@@ -63,13 +71,26 @@ header{
 }
 
 /* main */
+main{
+    background-color: black;
+}
+
+.container{
+    justify-content: space-between;
+}
+
+.user > img{
+    width: 300px;
+    height: 200px;
+}
+
 .name{
     color: white;
 }
 
 .b-left{
-    bottom: 1.5%;
-    background-color: rgba(74, 74, 74, 0.5);
+    bottom: 0.5%;
+    background-color: rgba(74, 74, 74, 0.9);
 }
 
 /* footer */
