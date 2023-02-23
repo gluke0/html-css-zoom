@@ -5,10 +5,30 @@
     box-sizing: border-box;
 }
 
+ul{
+    list-style-type: none
+}
+
 /* font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body{
     font-family: 'OpenSans', sans-serif;
 }
+
+/* debug */
+.debug{
+    border: 3px solid red;
+    height: 100vh;
+}
+
+footer{
+    background-color: black;
+    color: rgb(200, 32, 32);
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
 
