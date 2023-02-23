@@ -35,11 +35,17 @@ body{
     justify-content: flex-end;
 }
 
-.box{
-    background-color: rgb(74, 74, 74);
-    padding: 5px 5px;
-    border-radius: 12%;
-    margin-left: 6px;
+.w-80{
+    width: 80%;
+    margin: auto;
+}
+
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
 }
 
 /* header */
@@ -47,6 +53,23 @@ header{
     background-color: black;
     color: white;
     height: 68px;
+}
+
+.box{
+    background-color: rgb(74, 74, 74);
+    padding: 5px 5px;
+    border-radius: 12%;
+    margin-left: 6px;
+}
+
+/* main */
+.name{
+    color: white;
+}
+
+.b-left{
+    bottom: 1.5%;
+    background-color: rgba(74, 74, 74, 0.5);
 }
 
 /* footer */
