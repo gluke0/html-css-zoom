@@ -17,10 +17,10 @@ body{
 }
 
 /* debug */
-/* .debug{
+.debug{
     border: 3px solid red;
     height: 100vh;
-} */
+}
 
 /* utility */
 .flex{
@@ -29,6 +29,24 @@ body{
 
 .ai-center{
     align-items: center;
+}
+
+.fe-right{
+    justify-content: flex-end;
+}
+
+.box{
+    background-color: rgb(74, 74, 74);
+    padding: 5px 5px;
+    border-radius: 12%;
+    margin-left: 6px;
+}
+
+/* header */
+header{
+    background-color: black;
+    color: white;
+    height: 68px;
 }
 
 /* footer */
