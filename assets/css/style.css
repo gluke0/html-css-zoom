@@ -17,7 +17,7 @@ img{
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body{
-    font-family:, sans-serif;
+    font-family:'OpenSans', sans-serif;
 }
 
 /* debug */
@@ -59,7 +59,8 @@ body{
 header{
     background-color: black;
     color: white;
-    height: 8%;
+    height: 9%;
+    padding-top: 5px;
 }
 
 .box{
@@ -72,12 +73,12 @@ header{
 /* main */
 main{
     background-color: black;
-    height: 84%;
+    height: 82%;
+    overflow: auto;
 }
 
 .container{
     justify-content: center;
-    overflow: auto;
     gap: 20px 10px;
 }
 
@@ -88,6 +89,7 @@ main{
 
 .name{
     color: white;
+    font-size: 10px;
 }
 
 .b-left{
@@ -101,7 +103,10 @@ footer{
     color: white;
     justify-content: space-between;
     text-align: center;
-    height: 8%;
+    height: 9%;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 
 li{
