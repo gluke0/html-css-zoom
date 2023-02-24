@@ -76,13 +76,14 @@ main{
 }
 
 .container{
-    justify-content: space-between;
+    justify-content: center;
     overflow: auto;
+    gap: 20px 10px;
 }
 
 .user > img{
-    width: 300px;
-    height: 200px;
+    width: 150px;
+    height: 90px;
 }
 
 .name{
