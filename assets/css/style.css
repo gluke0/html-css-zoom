@@ -60,7 +60,7 @@ body{
 header{
     background-color: black;
     color: white;
-    height: 68px;
+    height: 8%;
 }
 
 .box{
@@ -73,6 +73,7 @@ header{
 /* main */
 main{
     background-color: black;
+    height: 84%;
 }
 
 .container{
@@ -99,6 +100,7 @@ footer{
     color: white;
     justify-content: space-between;
     text-align: center;
+    height: 8%;
 }
 
 li{
