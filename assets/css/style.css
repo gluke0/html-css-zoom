@@ -93,7 +93,7 @@ main{
 }
 
 .b-left{
-    bottom: 0.5%;
+    bottom: 0%;
     background-color: rgba(74, 74, 74, 0.9);
 }
 
@@ -115,8 +115,8 @@ li{
     align-items: center;
 }
 
-.marginleft4{
-    margin-left: 4px;
+.marginleft10{
+    margin-left: 10px;
 }
 
 .nomarginleft{
