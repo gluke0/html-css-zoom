@@ -21,8 +21,7 @@ body{
 }
 
 /* debug */
-.debug{
-    border: 3px solid red;
+.view{
     height: 100vh;
 }
 
@@ -78,6 +77,7 @@ main{
 
 .container{
     justify-content: space-between;
+    overflow: auto;
 }
 
 .user > img{
